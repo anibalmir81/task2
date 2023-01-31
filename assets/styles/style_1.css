@@ -5,7 +5,7 @@
 
 .header{
     width: 100%;
-    height: 250px;
+    height: 380px;
 }
 
 .nav{
@@ -40,7 +40,16 @@
 
 .back{
     width: 100%;
-    height: 250px;
+    height: 380px;
+    background-image: url("/assets/images/design1_image1.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.back:hover{
+    background: url("/assets/images/design1_image2.jpg") no-repeat;
 }
 
 
