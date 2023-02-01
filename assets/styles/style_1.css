@@ -125,3 +125,17 @@ h3{
 .sangria{
     text-indent: 40px;
 }
+
+ol{
+    padding: 0px; 
+    margin: 0px; 
+}
+
+.vineta{
+    list-style: circle;
+    background: #af0f0f;
+}
+
+.letra{
+    list-style:lower-alpha;
+}
