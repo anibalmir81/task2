@@ -107,16 +107,10 @@ h3{
     padding-bottom: 10px;
 }
 
-.section_flex-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.rules_title {
-    flex-flow: column wrap;
-    align-self: center;
+.rules{
     text-align: center;
 }
+
 
 .resaltar{
     font-weight: bold;
@@ -131,11 +125,19 @@ ol{
     margin: 0px; 
 }
 
-.vineta{
+.vinetas{
     list-style: circle;
-    background: #af0f0f;
 }
 
-.letra{
+li .letras{
     list-style:lower-alpha;
+} 
+
+.tabla{
+    font-size:large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: left;
 }
+
