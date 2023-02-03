@@ -23,8 +23,7 @@ body {
 
 .main{
     width: 100%;
-   /*  height: calc(100vh - 200px); */
-    display:flex;
+    display: flex;
     height: 100%;
 }
 
@@ -100,7 +99,7 @@ article  {
 }
 
 h5{
-    display: none;;
+    display: none;
 }
 
 h3{
@@ -114,6 +113,7 @@ h3{
 
 .resaltar{
     font-weight: bold;
+    
 }
 
 .sangria{
@@ -122,15 +122,23 @@ h3{
 
 ol{
     padding: 0px; 
-    margin: 0px; 
+    margin: 0px;
+    font-size: 20px;
+}
+
+li{
+    list-style-position: inside;
 }
 
 .vinetas{
+    margin-left: 60px;
     list-style: circle;
+
 }
 
 li .letras{
     list-style:lower-alpha;
+    
 } 
 
 .tabla{
@@ -147,8 +155,19 @@ tr:hover {
     background-color: coral;
 }
 
-.p_rules{
-    margin-left: 100px;
-    margin: 20px;
-    float: left;
+.pie_tabla{
+    display: flex;
+    flex-direction:column;
+
 }
+
+.pie_linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.espacio{
+    margin-top: 20px;
+}
+

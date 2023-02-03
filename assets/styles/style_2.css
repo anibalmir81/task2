@@ -17,9 +17,9 @@
 
 .main{
     width: 100%;
-   /*  height: calc(100vh - 200px); */
    height: 100%;
-    display:flex;
+    display: flex;
+
 }
 
 .section{
@@ -31,6 +31,7 @@
 .aside{
     width: 20%;
     height: 100%;
+
 }
 
 .footer{
@@ -62,13 +63,12 @@
 }
 
 .menu a{
-    position: relative;
-    display:inline;
+/*     position: relative; */
     font-size: 19px;
     padding: 5px;
     height: 1000px;
     top: -380px;
-    left: 1120px;
+    left: 800px;
     border: 2px solid #000;
     background-color: blue;
     color:white;
