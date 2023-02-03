@@ -186,3 +186,70 @@
       transform: rotate(1turn);
     }
   }
+
+
+  .rules{
+    text-align: center;
+}
+
+
+.resaltar{
+    font-weight: bold;
+    
+}
+
+.sangria{
+    text-indent: 40px;
+}
+
+ol{
+    padding: 0px; 
+    margin: 0px;
+    font-size: 20px;
+}
+
+li{
+    list-style-position: inside;
+}
+
+.vinetas{
+    margin-left: 60px;
+    list-style: circle;
+
+}
+
+li .letras{
+    list-style:lower-alpha;
+    
+} 
+
+.tabla{
+    font-size:large;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+.pie_tabla{
+    display: flex;
+    flex-direction:column;
+
+}
+
+.pie_linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.espacio{
+    margin-top: 20px;
+}
+
