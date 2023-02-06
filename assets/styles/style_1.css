@@ -1,65 +1,66 @@
-*{
+* {
     margin: 0;
-    font-family: 'Coming Soon';  
+    font-family: 'Coming Soon';
 }
 
 html {
     height: 100%;
 }
+
 body {
     min-height: 100%;
 }
 
-.header{
+.header {
     width: 100%;
     height: 280px;
 }
 
-.nav{
-    background: yellowgreen;
-    width: 100%;
-    height: 100px; 
-}
-
-.main{
-    width: 100%;
-    display: flex;
-    height: 100%;
-}
-
-.section{
-    width: 80%;
-    height: 100%; 
-    padding-left: 20px;
-}
-
-.aside{
-    width: 20%;
-    height: 100%;
-}
-
-.footer{
+.nav {
     background: yellowgreen;
     width: 100%;
     height: 100px;
 }
 
-.back{
+.main {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.section {
+    width: 80%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.aside {
+    width: 20%;
+    height: 100%;
+}
+
+.footer {
+    background: yellowgreen;
+    width: 100%;
+    height: 100px;
+}
+
+.back {
     width: 100%;
     height: 280px;
     background-image: url("/assets/images/design1_image1.jpg");
     background-color: #cccccc;
     background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.back:hover{
+.back:hover {
     background: url("/assets/images/design1_image2.jpg") no-repeat;
 }
 
 
-.logo{
+.logo {
     width: 150px;
     border: 1px solid yellowgreen;
     position: absolute;
@@ -67,7 +68,7 @@ body {
     top: 230px;
 }
 
-.menu a{
+.menu a {
     bottom: 10px;
     position: relative;
     display: block;
@@ -75,16 +76,16 @@ body {
     margin: 40px;
 }
 
-h1{
+h1 {
     position: absolute;
     top: 0px;
     left: 0px;
     font-size: 80px;
     color: rgb(255, 238, 0);
-    -webkit-text-stroke: 1px black; 
+    -webkit-text-stroke: 1px black;
 }
 
-h2{
+h2 {
     min-height: 100px;
     font-weight: bold;
     display: flex;
@@ -92,57 +93,57 @@ h2{
     justify-content: center;
 }
 
-article  {
+article {
     display: inline;
     margin: 20px;
     font-size: 20px;
 }
 
-h5{
+h5 {
     display: none;
 }
 
-h3{
+h3 {
     padding-bottom: 10px;
 }
 
-.rules{
+.rules {
     text-align: center;
 }
 
 
-.resaltar{
+.resaltar {
     font-weight: bold;
-    
+
 }
 
-.sangria{
+.sangria {
     text-indent: 40px;
 }
 
-ol{
-    padding: 0px; 
+ol {
+    padding: 0px;
     margin: 0px;
     font-size: 20px;
 }
 
-li{
+li {
     list-style-position: inside;
 }
 
-.vinetas{
+.vinetas {
     margin-left: 60px;
     list-style: circle;
 
 }
 
-li .letras{
-    list-style:lower-alpha;
-    
-} 
+li .letras {
+    list-style: lower-alpha;
 
-.tabla{
-    font-size:large;
+}
+
+.tabla {
+    font-size: large;
     margin-bottom: 50px;
     margin-top: 50px;
     margin-left: auto;
@@ -155,19 +156,19 @@ tr:hover {
     background-color: coral;
 }
 
-.pie_tabla{
+.pie_tabla {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 
 }
 
-.pie_linea{
+.pie_linea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.espacio{
+.espacio {
     margin-top: 20px;
 }
 
@@ -175,40 +176,33 @@ tr:hover {
 /*************registration******/
 #registration-page {
     display: flex;
-  }
-  
-  .signup-form {
-    flex: 1;
-/*     max-width: 700px; */
-/*     border-radius: 10px; */
-/*     background-color: #EFF0F1; */
-/*     border: 1px solid #999; */
-/*     margin-top: auto;
-    margin-bottom: auto; */
+}
 
-  }
-  
-  .row {
+.signup-form {
+    flex: 1;
+}
+
+.row {
     display: flex;
     flex-direction: row;
-  }
-  
-  .input-group {
+}
+
+.input-group {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin: 15px 10px;
     border-bottom: 2px solid #076850;
-  }
-  
-  label {
+}
+
+label {
     color: #076850;
     font-size: 17px;
-  }
-  
-  input[type="text"],
-  input[type="date"],
-  input[type="radio"] {
+}
+
+input[type="text"],
+input[type="date"],
+input[type="radio"] {
     font-size: 18px;
     height: 34px;
     padding-left: 10px;
@@ -218,29 +212,29 @@ tr:hover {
     border-radius: 4px;
     background: white;
     outline: none;
-  }
-  
-  .form-body {
+}
+
+.form-body {
     padding: 5px 120px;
     background-color: rgb(224, 243, 227);
-    
-  }
-  
-  @media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 1000px) {
     .row {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
-  
-  .radio-group,
-  .checkbox-group {
+}
+
+.radio-group,
+.checkbox-group {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  }
-  
-  input[type="radio"],
-  select {
+}
+
+input[type="radio"],
+select {
     font-size: 18px;
     height: 34px;
     padding-left: 10px;
@@ -251,13 +245,14 @@ tr:hover {
     background: white;
     outline: none;
     vertical-align: middle;
-  }
+}
 
-  .submit{
+.submit {
     display: flex;
     justify-content: flex-end;
-  }
-  .button{
+}
+
+.button {
     width: 15%;
     font-size: 20px;
     color: #c7ffd3;
@@ -265,9 +260,9 @@ tr:hover {
     border: none;
     border-radius: 50px;
     margin-left: 50px;
-  }
+}
 
-  .button-reset{
+.button-reset {
     width: 15%;
     font-size: 20px;
     color: #c7ffd3;
@@ -275,10 +270,7 @@ tr:hover {
     border: none;
     border-radius: 50px;
     margin-left: 50px;
-  }
+}
 
- 
-
-
-  /*****************************/
+/*****************************/
 /*************Fin registration******/
