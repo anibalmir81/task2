@@ -287,3 +287,16 @@ select {
 
 /*****************************/
 /*************Fin registration******/
+/***********Ubicacion***************/
+
+.tg{
+    font-size: large;
+    font:bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 15px;
+    width: 200px;
+    text-align: left;
+}
+/***********FIN Ubicacion***************/
