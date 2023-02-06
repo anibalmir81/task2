@@ -264,6 +264,17 @@ tr:hover {
     background: #0346ff;
     border: none;
     border-radius: 50px;
+    margin-left: 50px;
+  }
+
+  .button-reset{
+    width: 15%;
+    font-size: 20px;
+    color: #c7ffd3;
+    background: #ff2946;
+    border: none;
+    border-radius: 50px;
+    margin-left: 50px;
   }
 
  
