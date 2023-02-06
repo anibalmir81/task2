@@ -179,7 +179,7 @@ tr:hover {
   
   .signup-form {
     flex: 1;
-    max-width: 700px;
+/*     max-width: 700px; */
 /*     border-radius: 10px; */
 /*     background-color: #EFF0F1; */
 /*     border: 1px solid #999; */
@@ -221,7 +221,9 @@ tr:hover {
   }
   
   .form-body {
-    padding: 5px 10px;
+    padding: 5px 120px;
+    background-color: rgb(224, 243, 227);
+    
   }
   
   @media only screen and (max-width: 1000px) {
@@ -250,12 +252,22 @@ tr:hover {
     outline: none;
     vertical-align: middle;
   }
-  
-  .input-submit{
-    flex: 1;
+
+  .submit{
     display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid #076850;
+    justify-content: flex-end;
   }
+  .button{
+    width: 15%;
+    font-size: 20px;
+    color: #c7ffd3;
+    background: #0346ff;
+    border: none;
+    border-radius: 50px;
+  }
+
+ 
+
+
   /*****************************/
 /*************Fin registration******/
